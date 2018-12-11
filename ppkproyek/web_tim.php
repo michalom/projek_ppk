@@ -12,7 +12,7 @@ while ($ROW = mysqli_fetch_array($QUERY)) {
 header('Content-Type:application/json;charset=utf-8');
 ECHO JSON_ENCODE($arr);
 
-echo "aku tampan"
+
 
 
 
