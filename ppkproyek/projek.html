@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Data Pemain Sepakbola</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+	<script src="js/jquery-1.11.1.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+	<div data-role="page" id="hal-satu">
+		<div data-role="header">
+			<h1>Data Tim Sepakbola</h1>
+		</div>
+		<div role="main" class="ui-content">
+			<ul id="list-tim" data-role="listview" data-inset="true" data-filter="true"></ul>
+		</div>
+	</div>
+
+	<div data-role="page" id="hal-dua">
+		<div data-role="header">
+			<h1>Posisi pemain</h1>
+		</div>
+		<div role="main" class="ui-content">
+			<ul id="list-posisi" data-role="listview" data-inset="true" data-filter="true">
+		</ul>
+		</div>
+		</div>
+
+	<div data-role="page" id="hal-tiga">
+		<div data-role="header">
+			<h1>Daftar Pemain</h1>
+		</div>
+		<div role="main" class="ui-content">
+			<ul id="list-pemain" data-role="listview" data-inset="true" data-filter="true">
+			</ul>
+		</div>
+	</div>
+
+	<div data-role="page" id="hal-empat">
+		<div data-role="header">
+			<h1>Detail Profil Pemain</h1>
+		</div>
+		<div role="main" class="ui-content">
+				<p id="p-nama"></p><br>
+				<p id="p-nationality"></p><br>
+				<p id="p-dob"></p><br>
+				<p id="p-height"></p><br>
+				<p id="p-weight"></p><br>
+				<p id="p-tim"></p><br>
+				<p id="p-posisi"></p><br>
+		</div>
+	</div>
+	<script src="js/app.js" type="text/javascript"></script>
+	<script>Application.initApplication();</script>
+</body>
+</html>
